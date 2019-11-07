@@ -23,9 +23,17 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- provide protobuf java api and classes needed -->
 		<dependency>
 			<groupId>com.google.protobuf</groupId>
 			<artifactId>protobuf-java</artifactId>
+			<version>3.5.1</version>
+		</dependency>
+		<!-- provide util method which can be used to convert protobuf builder 
+			to json and vice-versa -->
+		<dependency>
+			<groupId>com.google.protobuf</groupId>
+			<artifactId>protobuf-java-util</artifactId>
 			<version>3.5.1</version>
 		</dependency>
 	</dependencies>
